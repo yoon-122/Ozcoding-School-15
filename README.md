@@ -1,13 +1,51 @@
-   # Hi there 👋
-   <img src="https://raw.githubusercontent.com/yoon-122/Ozcoding-School-15/main/images/%EB%82%B4%20%ED%94%84%EB%A1%9C%ED%95%84%20%EC%82%AC%EC%A7%84.jpg" alt="내 프로필 사진">
-   
-   ## About me
-- I'm currently studying practical music at university and I'm about to graduate.
-- I have no prior knowledge of coding and joined this project as my first step into programming.
-- This is my first time learning about coding and development.
-- I don't have any computer-related certifications yet.
-## Tech Stacks
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.linux.org/)
-   ## 추가 정보
-   이 프로젝트를 통해 코딩을 배우고 있어요! 
+# Admin 페이지 프론트엔드 프로젝트
+
+Bootstrap을 활용한 관리자 페이지 메인 화면 및 회원가입 폼 프로젝트입니다.
+
+## 프로젝트 소개
+
+- 관리자 페이지 메인 화면 제작
+- 회원가입 폼 제작
+
+## 주요 기능
+
+### 기본 기능
+- 카테고리별 상품 필터링 (상의, 하의, 신발, 패션잡화)
+- 제품명 검색 기능
+- 상품 목록 테이블 표시
+- 페이지네이션 기능
+
+### 챌린지 기능
+- 실시간 날짜/시간 표시
+- 성별 선택 셀렉터
+- 다크모드 토글 기능
+- 회원가입 모달 (유효성 검사 포함)
+- 회원가입 완료 페이지
+
+## 파일 구조
+
+```
+admin-page-project/
+├── index.html              # 메인 페이지
+├── signup-complete.html    # 회원가입 완료 페이지
+└── README.md              # 프로젝트 설명서
+```
+
+## 사용 방법
+
+1. `index.html` 파일을 브라우저에서 열기
+2. 카테고리 선택 및 제품명 검색 기능 사용
+3. 다크모드 토글 버튼으로 테마 변경
+4. 회원가입 버튼을 클릭하여 회원가입 폼 사용
+
+## 기술 스택
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5.3.1
+
+## 작성일
+
+2024년 11월
+

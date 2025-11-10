@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>회원가입 완료</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .complete-card {
+            max-width: 500px;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="card complete-card text-center">
+        <div class="card-body">
+            <div class="mb-4">
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" stroke="#28a745" stroke-width="2" fill="none"/>
+                    <path d="M8 12l2 2 4-4" stroke="#28a745" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <h2 class="card-title mb-3">회원가입이 완료되었습니다!</h2>
+            <p class="card-text text-muted mb-4">
+                환영합니다! 회원가입이 성공적으로 완료되었습니다.
+            </p>
+            <a href="index.html" class="btn btn-primary">메인 페이지로 돌아가기</a>
+        </div>
+    </div>
+</body>
+</html>
+
